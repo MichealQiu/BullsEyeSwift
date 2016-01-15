@@ -52,13 +52,27 @@ class ViewController: UIViewController {
 //        }
         
         let difference = abs(currentValue - targetValue)
-        let points = 100 - difference
-        score += points
+        var points = 100 - difference
 //        let message = "The value of slider is: \(currentValue)"
 //                    + "\nThe target value is: \(targetValue)"
 //                    + "\nThe difference is: \(difference)"
+        var title: String
+        if difference == 0 {
+            points += 100
+            title = "Prefect!"
+        } else if difference < 5 {
+            if difference == 1 {
+                points += 50
+            }
+            title = "You almost had it!"
+        } else if difference < 10 {
+            title = "Pretty Good!"
+        } else {
+            title = "No even closed..."
+        }
+        score += points
         let message = "You scored \(points) points"
-        let alert = UIAlertController(title: "Hello, World", message: message, preferredStyle: UIAlertControllerStyle.Alert)
+        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.Alert)
         let action = UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil)
         alert.addAction(action)
         presentViewController(alert, animated: true, completion: nil)
