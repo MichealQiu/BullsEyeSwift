@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        startNewRound()
+        startNewGame()
         updateLabel()
     }
 
@@ -73,12 +73,24 @@ class ViewController: UIViewController {
         score += points
         let message = "You scored \(points) points"
         let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.Alert)
-        let action = UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil)
+        let action = UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: { action in
+                                                                                                self.startNewRound()
+                                                                                                self.updateLabel()
+                                                                                                })
         alert.addAction(action)
         presentViewController(alert, animated: true, completion: nil)
         
-        startNewRound()
+    }
+    
+    @IBAction func startOver() {
+        startNewGame()
         updateLabel()
+    }
+    
+    func startNewGame() {
+        round = 0
+        score = 0
+        startNewRound()
     }
 
     func startNewRound() {
@@ -95,4 +107,3 @@ class ViewController: UIViewController {
 //        targetLabel.text = "\(targetValue)"
     }
 }
-
