@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		4615A91D1C493FD900C9CE03 /* MQAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4615A91C1C493FD900C9CE03 /* MQAboutViewController.swift */; };
+		466654381C4F317500015CB1 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 466654371C4F317500015CB1 /* BullsEye.html */; };
+		466654441C4F36FF00015CB1 /* Background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4666543A1C4F36FF00015CB1 /* Background@2x.png */; };
+		466654451C4F36FF00015CB1 /* Button-Highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4666543B1C4F36FF00015CB1 /* Button-Highlighted@2x.png */; };
+		466654461C4F36FF00015CB1 /* Button-Normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4666543C1C4F36FF00015CB1 /* Button-Normal@2x.png */; };
+		466654471C4F36FF00015CB1 /* InfoButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4666543D1C4F36FF00015CB1 /* InfoButton@2x.png */; };
+		466654481C4F36FF00015CB1 /* SliderThumb-Highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4666543E1C4F36FF00015CB1 /* SliderThumb-Highlighted@2x.png */; };
+		466654491C4F36FF00015CB1 /* SliderThumb-Normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4666543F1C4F36FF00015CB1 /* SliderThumb-Normal@2x.png */; };
+		4666544A1C4F36FF00015CB1 /* SliderTrackLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 466654401C4F36FF00015CB1 /* SliderTrackLeft@2x.png */; };
+		4666544B1C4F36FF00015CB1 /* SliderTrackRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 466654411C4F36FF00015CB1 /* SliderTrackRight@2x.png */; };
+		4666544C1C4F36FF00015CB1 /* SmallButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 466654421C4F36FF00015CB1 /* SmallButton@2x.png */; };
+		4666544D1C4F36FF00015CB1 /* StartOverIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 466654431C4F36FF00015CB1 /* StartOverIcon@2x.png */; };
 		46FC1EE11C4490ED0050E4D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FC1EE01C4490ED0050E4D1 /* AppDelegate.swift */; };
 		46FC1EE31C4490ED0050E4D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FC1EE21C4490ED0050E4D1 /* ViewController.swift */; };
 		46FC1EE61C4490ED0050E4D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46FC1EE41C4490ED0050E4D1 /* Main.storyboard */; };
@@ -17,6 +28,17 @@
 
 /* Begin PBXFileReference section */
 		4615A91C1C493FD900C9CE03 /* MQAboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MQAboutViewController.swift; sourceTree = "<group>"; };
+		466654371C4F317500015CB1 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
+		4666543A1C4F36FF00015CB1 /* Background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background@2x.png"; sourceTree = "<group>"; };
+		4666543B1C4F36FF00015CB1 /* Button-Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-Highlighted@2x.png"; sourceTree = "<group>"; };
+		4666543C1C4F36FF00015CB1 /* Button-Normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-Normal@2x.png"; sourceTree = "<group>"; };
+		4666543D1C4F36FF00015CB1 /* InfoButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InfoButton@2x.png"; sourceTree = "<group>"; };
+		4666543E1C4F36FF00015CB1 /* SliderThumb-Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SliderThumb-Highlighted@2x.png"; sourceTree = "<group>"; };
+		4666543F1C4F36FF00015CB1 /* SliderThumb-Normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SliderThumb-Normal@2x.png"; sourceTree = "<group>"; };
+		466654401C4F36FF00015CB1 /* SliderTrackLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SliderTrackLeft@2x.png"; sourceTree = "<group>"; };
+		466654411C4F36FF00015CB1 /* SliderTrackRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SliderTrackRight@2x.png"; sourceTree = "<group>"; };
+		466654421C4F36FF00015CB1 /* SmallButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SmallButton@2x.png"; sourceTree = "<group>"; };
+		466654431C4F36FF00015CB1 /* StartOverIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StartOverIcon@2x.png"; sourceTree = "<group>"; };
 		46FC1EDD1C4490ED0050E4D1 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46FC1EE01C4490ED0050E4D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46FC1EE21C4490ED0050E4D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +59,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		466654391C4F36EA00015CB1 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				4666543A1C4F36FF00015CB1 /* Background@2x.png */,
+				4666543B1C4F36FF00015CB1 /* Button-Highlighted@2x.png */,
+				4666543C1C4F36FF00015CB1 /* Button-Normal@2x.png */,
+				4666543D1C4F36FF00015CB1 /* InfoButton@2x.png */,
+				4666543E1C4F36FF00015CB1 /* SliderThumb-Highlighted@2x.png */,
+				4666543F1C4F36FF00015CB1 /* SliderThumb-Normal@2x.png */,
+				466654401C4F36FF00015CB1 /* SliderTrackLeft@2x.png */,
+				466654411C4F36FF00015CB1 /* SliderTrackRight@2x.png */,
+				466654421C4F36FF00015CB1 /* SmallButton@2x.png */,
+				466654431C4F36FF00015CB1 /* StartOverIcon@2x.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
 		46FC1ED41C4490EC0050E4D1 = {
 			isa = PBXGroup;
 			children = (
@@ -57,12 +96,14 @@
 			isa = PBXGroup;
 			children = (
 				46FC1EE01C4490ED0050E4D1 /* AppDelegate.swift */,
+				466654391C4F36EA00015CB1 /* image */,
 				46FC1EE41C4490ED0050E4D1 /* Main.storyboard */,
 				46FC1EE21C4490ED0050E4D1 /* ViewController.swift */,
 				46FC1EE71C4490ED0050E4D1 /* Assets.xcassets */,
 				46FC1EE91C4490ED0050E4D1 /* LaunchScreen.storyboard */,
 				46FC1EEC1C4490ED0050E4D1 /* Info.plist */,
 				4615A91C1C493FD900C9CE03 /* MQAboutViewController.swift */,
+				466654371C4F317500015CB1 /* BullsEye.html */,
 			);
 			path = BullsEye;
 			sourceTree = "<group>";
@@ -126,8 +167,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				46FC1EEB1C4490ED0050E4D1 /* LaunchScreen.storyboard in Resources */,
+				4666544A1C4F36FF00015CB1 /* SliderTrackLeft@2x.png in Resources */,
+				4666544D1C4F36FF00015CB1 /* StartOverIcon@2x.png in Resources */,
+				466654381C4F317500015CB1 /* BullsEye.html in Resources */,
+				466654461C4F36FF00015CB1 /* Button-Normal@2x.png in Resources */,
+				4666544C1C4F36FF00015CB1 /* SmallButton@2x.png in Resources */,
 				46FC1EE81C4490ED0050E4D1 /* Assets.xcassets in Resources */,
+				466654481C4F36FF00015CB1 /* SliderThumb-Highlighted@2x.png in Resources */,
+				466654441C4F36FF00015CB1 /* Background@2x.png in Resources */,
+				466654451C4F36FF00015CB1 /* Button-Highlighted@2x.png in Resources */,
+				466654471C4F36FF00015CB1 /* InfoButton@2x.png in Resources */,
 				46FC1EE61C4490ED0050E4D1 /* Main.storyboard in Resources */,
+				4666544B1C4F36FF00015CB1 /* SliderTrackRight@2x.png in Resources */,
+				466654491C4F36FF00015CB1 /* SliderThumb-Normal@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
